@@ -20,7 +20,6 @@ body {
 header {
   background-color: $nav-backcolor; 
   font-family: $poppins;
-  
   position: fixed;
 }
 
@@ -32,6 +31,7 @@ header {
     background: #333;
     margin: 5px;
   }
+
 }
 
 main {
@@ -134,30 +134,52 @@ section {
 @media screen and (max-width: 800px) {
   header {
     position: fixed;
-    z-index: 1000;
+    height: 4rem;
     width: 100vw;
-    height: 100vh;
+   z-index: 10;
   }
   .hamburger {
     display: block;
     position: absolute;
     cursor: pointer;
+    right: 2%;
+  
+    z-index: 101;
+  }
+
+  .icon {
+    position: absolute;
+    left: 2%;
   }
 
   .nav-links {
     position: absolute;
     z-index: 100;
-    justify-content: start;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden;
+    justify-content: center;
     background: #131418;
+    top: 0;
+    bottom: 0;
     height: 100vh;
     width: 100vw;
-    // clip-path: circle(50px at 90% -20%);
-    // -webkit-clip-path: circle(50px at 90% -10%);
+    clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
     flex-direction: column;
+    transition: all 1s ease-out;
+    pointer-events: none;
     a {
       color: $nav-backcolor;
+      margin-top: 20px;
     }
   }
-
+  .nav-links.open{
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+}
+  
 
 }
+

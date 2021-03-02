@@ -55,7 +55,7 @@
           </svg>
         </a>
 
-        <span class="ml-2"> LECOD Alumini Association </span>
+        <span class="ml-2 text-sm"> LECOD Alumini Association </span>
       </div>
 
       <div class="hamburger">
@@ -280,5 +280,29 @@
         </div>
       </div>
     </footer>
+
+
+
+    <script>
+
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
+      const links = document.querySelectorAll('.nav-links a');
+      const lines = document.querySelectorAll('.nav-links div');
+      hamburger.addEventListener('click',()=>{
+        console.log('head');
+        navLinks.classList.toggle('open');
+        links.forEach(link => {
+          links.classList.toggle('fade');
+        })
+
+        hamburger.classList.toggle('toggle');
+        lines.style.backgroundColor = "#fff";
+      })
+
+
+
+    </script>
+
   </body>
 </html>
