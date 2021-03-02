@@ -17,15 +17,17 @@ header {
   position: fixed;
 }
 
-.hamburger {
+.humburger {
   display: none;
 }
 
-.hamburger div {
+.humburger div {
   width: 30px;
   height: 3px;
   background: #333;
   margin: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 main h1 {
@@ -116,7 +118,7 @@ section .mission p {
     width: 100vw;
     z-index: 10;
   }
-  .hamburger {
+  .humburger {
     display: block;
     position: absolute;
     cursor: pointer;
@@ -164,5 +166,21 @@ section .mission p {
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
   }
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  width: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 /*# sourceMappingURL=style.css.map */

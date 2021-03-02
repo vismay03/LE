@@ -58,7 +58,7 @@
         <span class="ml-2 text-sm"> LECOD Alumini Association </span>
       </div>
 
-      <div class="hamburger">
+      <div class="humburger">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
@@ -285,19 +285,19 @@
 
     <script>
 
-      const hamburger = document.querySelector('.hamburger');
+      const hamburger = document.querySelector('.humburger');
+      const lines = document.querySelectorAll('.hum');
       const navLinks = document.querySelector('.nav-links');
       const links = document.querySelectorAll('.nav-links a');
-      const lines = document.querySelectorAll('.nav-links div');
-      hamburger.addEventListener('click',()=>{
-        console.log('head');
+      hamburger.addEventListener('click',()=>{ hamburger.classList.toggle('toggle');
         navLinks.classList.toggle('open');
         links.forEach(link => {
           links.classList.toggle('fade');
         })
 
-        hamburger.classList.toggle('toggle');
-        lines.style.backgroundColor = "#fff";
+        
+       
+        
       })
 
 
