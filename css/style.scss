@@ -14,13 +14,17 @@ $primary-text: #407581;
 
 body {
   background: $background;
-  
+  overflow-x: hidden;
 }
 
 header {
   background-color: $nav-backcolor; 
   font-family: $poppins;
   position: fixed;
+}
+
+.image {
+
 }
 
 .hamburger {
@@ -157,7 +161,7 @@ section {
     z-index: 100;
     justify-content: space-evenly;
     align-items: center;
-    overflow-y: hidden;
+    overflow-x: hidden;
     justify-content: center;
     background: #131418;
     top: 0;
