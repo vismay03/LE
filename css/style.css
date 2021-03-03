@@ -167,7 +167,7 @@ section .mission p {
     pointer-events: all;
   }
   main h1 {
-    border-bottom: 0px solid #407581;
+    border: 7px solid #407581;
   }
 }
 
