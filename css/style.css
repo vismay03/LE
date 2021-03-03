@@ -175,6 +175,7 @@ section .mission p {
 .toggle .line1 {
   -webkit-transform: rotate(-45deg) translate(-5px, 6px);
           transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: #fffefe;
 }
 
 .toggle .line2 {
@@ -186,5 +187,6 @@ section .mission p {
 .toggle .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -6px);
           transform: rotate(45deg) translate(-5px, -6px);
+  background-color: #fffefe;
 }
 /*# sourceMappingURL=style.css.map */

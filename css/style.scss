@@ -196,6 +196,7 @@ main {
 
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
+  background-color: $nav-backcolor;
 }
 .toggle .line2{
   transition: all 0.1s ease;
@@ -203,4 +204,5 @@ main {
 }
 .toggle .line3{
   transform: rotate(45deg) translate(-5px,-6px);
+  background-color: $nav-backcolor;
 }
