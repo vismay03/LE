@@ -105,18 +105,19 @@ section {
   );
   h1 {
     color: $primary-text;
+    font-family: $roboto-slab;
   }
   img {
     width: 350px;
     height: 300px;
   }
 }
-
-.events {
-    
-    .view-more {
+.view-more, .see-more {
         background: linear-gradient(180deg, rgba(39, 160, 211, 0.378) 0%, rgba(196, 196, 196, 0) 100%);
     }
+.events {
+    
+    
 
     .first-event {
     width:450px; 
