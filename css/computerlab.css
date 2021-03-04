@@ -1,0 +1,23 @@
+.title {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.77%, #27A0D3), color-stop(45.62%, rgba(139, 197, 222, 0.681228)), color-stop(70.1%, rgba(155, 197, 215, 0.34)), to(rgba(196, 196, 196, 0)));
+  background: linear-gradient(180deg, #27A0D3 11.77%, rgba(139, 197, 222, 0.681228) 45.62%, rgba(155, 197, 215, 0.34) 70.1%, rgba(196, 196, 196, 0) 100%);
+}
+
+.title h1 {
+  font-family: "Roboto Slab", serif;
+  color: #407581;
+}
+
+.title div {
+  font-family: "Poppins", sans-serif;
+}
+
+section p {
+  font-family: "Poppins", sans-serif;
+}
+
+.images img {
+  width: 600px;
+  height: 500px;
+}
+/*# sourceMappingURL=computerlab.css.map */

@@ -1,0 +1,30 @@
+
+$nav-backcolor: #fffefe;
+$background: #f1f1f1;
+$poppins: "Poppins", sans-serif;
+$roboto-slab: "Roboto Slab", serif;
+$primary-text: #407581;
+
+.title {
+    background: linear-gradient(180deg, #27A0D3 11.77%, rgba(139, 197, 222, 0.681228) 45.62%, rgba(155, 197, 215, 0.34) 70.1%, rgba(196, 196, 196, 0) 100%);
+    h1 {
+        font-family: $roboto-slab;
+        color: $primary-text;
+    }
+    div {
+        font-family: $poppins;
+    }
+}
+
+section {
+    p {
+        font-family: $poppins;
+    }
+}
+
+.images {
+    img {
+        width: 600px;
+        height: 500px;
+    }
+}

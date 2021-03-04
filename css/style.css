@@ -45,6 +45,8 @@ header nav a:hover {
 
 .humburger {
   display: none;
+  position: fixed;
+  z-index: 0;
 }
 
 .humburger div {
@@ -121,17 +123,17 @@ section .mission p {
   border-radius: 70px;
 }
 
-.gallery {
+.gallary {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15.67%, rgba(39, 160, 211, 0.392)), color-stop(53.3%, rgba(74, 173, 214, 0.3192)), color-stop(90.54%, rgba(120, 189, 218, 0.321617)), to(rgba(228, 228, 228, 0)));
   background: linear-gradient(180deg, rgba(39, 160, 211, 0.392) 15.67%, rgba(74, 173, 214, 0.3192) 53.3%, rgba(120, 189, 218, 0.321617) 90.54%, rgba(228, 228, 228, 0) 100%);
 }
 
-.gallery h1 {
+.gallary h1 {
   color: #407581;
   font-family: "Roboto Slab", serif;
 }
 
-.gallery img {
+.gallary img {
   width: 350px;
   height: 300px;
 }
@@ -144,8 +146,8 @@ section .mission p {
 }
 
 .events .first-event {
-  width: 350px;
-  height: 300px;
+  width: 450px;
+  height: 400px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 160, 211, 0.378)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(39, 160, 211, 0.378) 0%, rgba(0, 0, 0, 0) 100%);
 }
@@ -228,6 +230,10 @@ footer a, footer p {
   }
   main h1 {
     border: 6px solid #407581;
+  }
+  .events .first-event {
+    width: 350px;
+    height: 300px;
   }
 }
 

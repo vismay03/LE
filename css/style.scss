@@ -46,11 +46,12 @@ header {
   }
 }
 
-.image {
-}
+
 
 .humburger {
   display: none;
+  position: fixed;
+  z-index: 0;
   div {
     width: 30px;
     height: 3px;
@@ -130,7 +131,7 @@ section {
   }
 }
 
-.gallery {
+.gallary {
   background: linear-gradient(
     180deg,
     rgba(39, 160, 211, 0.392) 15.67%,
@@ -159,8 +160,8 @@ section {
 }
 .events {
   .first-event {
-    width: 350px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
     background: linear-gradient(
       180deg,
       rgba(39, 160, 211, 0.378) 0%,
@@ -241,8 +242,13 @@ footer {
       border: 6px solid $primary-text;
     }
   }
+  .events {
+    .first-event {
+      width: 350px;
+      height: 300px;
+    }
 }
-
+}
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
   background-color: $nav-backcolor;
