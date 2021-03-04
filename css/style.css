@@ -17,10 +17,30 @@ header {
   position: fixed;
 }
 
-header nav a:hover:after {
-  width: 100%;
+header nav a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  position: relative;
+}
+
+header nav a:after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  left: 0;
+  bottom: -3px;
   height: 3px;
   background: rgba(39, 160, 211, 0.9);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header nav a:hover:after {
+  width: 100%;
+}
+
+header nav a:hover {
+  color: #407581;
 }
 
 .humburger {
