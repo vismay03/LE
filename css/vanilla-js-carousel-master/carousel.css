@@ -83,5 +83,8 @@
   .card-carousel .my-card:after {
     display: none;
   }
-
+  .card-carousel .my-card {
+    width: 350px;
+    height: 300px;
+  }
 }
