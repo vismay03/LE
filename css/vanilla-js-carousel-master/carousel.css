@@ -6,8 +6,8 @@
 }
 
 .card-carousel .my-card {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   position: relative;
   z-index: 1;
   -webkit-transform: scale(0.6) translateY(-2rem);
@@ -52,4 +52,36 @@
   opacity: 0.6;
   pointer-events: auto;
   transition: 1s;
+}
+
+
+@media screen and (max-width: 800px) { 
+
+  .card-carousel {
+    flex-direction: column;
+  }
+
+  .card-carousel .my-card.active {
+    -webkit-transform: scale(1) translateY(0rem) translateX(0);
+    transform: scale(1) translateY(0rem) translateX(0);
+  }
+
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(1) translateY(0rem) translateX(0);
+    transform: scale(1) translateY(0rem) translateX(0);
+    opacity: 1;
+    pointer-events: none;
+    transition: 1s;
+   
+  }
+
+  .card-carousel .my-card:not(:nth-child(1)) {
+    margin-top: 4rem;
+  }
+
+  .card-carousel .my-card:after {
+    display: none;
+  }
+
 }

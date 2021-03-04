@@ -157,8 +157,13 @@ section {
     rgba(196, 196, 196, 0) 100%
   );
   font-family: $poppins;
+  pointer-events: auto;
 }
 .events {
+  h1.title {
+    font-family: $roboto-slab;
+    color: $primary-text;
+  }
   .first-event {
     width: 450px;
     height: 400px;
