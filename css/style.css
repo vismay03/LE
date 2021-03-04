@@ -38,6 +38,11 @@ main h1 {
 
 main h2 {
   color: #407581;
+  font-family: "Poppins", sans-serif;
+}
+
+main p {
+  font-family: "Poppins", sans-serif;
 }
 
 section .vision,
@@ -63,8 +68,20 @@ section .mission p {
   color: #407581;
 }
 
-.news h2 {
+.q p {
   font-family: "Poppins", sans-serif;
+}
+
+.emp h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+.emp p {
+  font-family: "Poppins", sans-serif;
+}
+
+.news h2 {
+  font-family: "Roboto Slab", serif;
 }
 
 .news h1 {
@@ -97,6 +114,7 @@ section .mission p {
 .see-more {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 160, 211, 0.378)), to(rgba(196, 196, 196, 0)));
   background: linear-gradient(180deg, rgba(39, 160, 211, 0.378) 0%, rgba(196, 196, 196, 0) 100%);
+  font-family: "Poppins", sans-serif;
 }
 
 .events .first-event {
@@ -105,12 +123,25 @@ section .mission p {
   background: linear-gradient(180deg, rgba(39, 160, 211, 0.378) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+.events .first-event p {
+  font-family: "Poppins", sans-serif;
+}
+
 .events h1 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .events .date {
   background-color: #407581;
+  font-family: "Roboto Slab", serif;
+}
+
+footer h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+footer a, footer p {
+  font-family: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 800px) {

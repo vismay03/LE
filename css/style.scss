@@ -45,6 +45,11 @@ main {
   }
   h2 {
     color: $primary-text;
+    font-family: $poppins;
+  }
+  p {
+    font-family: $poppins;
+
   }
 }
 
@@ -73,12 +78,21 @@ section {
     color: $primary-text;
   }
   p {
+    font-family: $poppins;
+  }
+}
+.emp {
+  h2 {
+    font-family: $roboto-slab;
+  }
+  p {
+    font-family: $poppins;
   }
 }
 
 .news {
   h2 {
-    font-family: $poppins;
+    font-family: $roboto-slab;
   }
 
   h1 {
@@ -118,6 +132,7 @@ section {
     rgba(39, 160, 211, 0.378) 0%,
     rgba(196, 196, 196, 0) 100%
   );
+  font-family: $poppins;
 }
 .events {
   .first-event {
@@ -127,13 +142,26 @@ section {
       rgba(39, 160, 211, 0.378) 0%,
       rgba(0, 0, 0, 0) 100%
     );
+    p {
+      font-family: $poppins;
+    }
   }
 
   h1 {
-    font-family: $roboto-slab;
+    font-family: $poppins;
   }
   .date {
     background-color: $primary-text;
+    font-family: $roboto-slab;
+  }
+}
+
+footer {
+  h1 {
+    font-family: $roboto-slab;
+  }
+  a, p {
+    font-family: $poppins;
   }
 }
 
