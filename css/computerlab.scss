@@ -28,3 +28,20 @@ section {
         height: 500px;
     }
 }
+
+
+@media screen and (max-width: 800px) {
+
+    
+        .images {
+            div {
+                width: 90%;
+             img {
+                 height: 300px;
+             }   
+            }
+           
+        }
+
+
+}

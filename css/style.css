@@ -109,7 +109,8 @@ section .mission p {
 }
 
 .news h2 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
+  color: #407581;
 }
 
 .news h1 {

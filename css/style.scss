@@ -89,9 +89,11 @@ section {
     );
     h1 {
       font-family: $roboto-slab;
+  
     }
     p {
       font-family: $poppins;
+      
     }
   }
 }
@@ -116,7 +118,8 @@ section {
 
 .news {
   h2 {
-    font-family: $roboto-slab;
+    font-family: $poppins;
+    color: $primary-text;
   }
 
   h1 {

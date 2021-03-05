@@ -20,4 +20,13 @@ section p {
   width: 600px;
   height: 500px;
 }
+
+@media screen and (max-width: 800px) {
+  .images div {
+    width: 90%;
+  }
+  .images div img {
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=computerlab.css.map */
